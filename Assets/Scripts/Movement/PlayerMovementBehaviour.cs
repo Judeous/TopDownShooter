@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class PlayerMovementBehaviour : MonoBehaviour
 {
-    [Tooltip("How fast the p[layer will move.")]
-    [SerializeField]
-    private float _moveSpeed;
+    [Tooltip("How fast the player will move.")]
+    [SerializeField] private float _moveSpeed;
     [Tooltip("The current active camera. Used to get mouse position for rotation.")]
-    [SerializeField]
-    private Camera _camera;
+    [SerializeField] private Camera _camera;
     private Rigidbody _rigidbody;
 
     // Start is called before the first frame update
