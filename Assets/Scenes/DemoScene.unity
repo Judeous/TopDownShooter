@@ -366,7 +366,7 @@ MonoBehaviour:
     m_Mode: 1
     m_NumColorKeys: 3
     m_NumAlphaKeys: 2
-  _fill: {fileID: 0}
+  _fill: {fileID: 276010836}
 --- !u!114 &127328265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1165,6 +1165,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _shotSpeed
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001671149930801753, guid: c43bcaa8f9b797d45b7d22fc774a8f49,
+        type: 3}
+      propertyPath: _health
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c43bcaa8f9b797d45b7d22fc774a8f49, type: 3}
